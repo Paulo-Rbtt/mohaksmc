@@ -35,8 +35,7 @@
                     <a href="#" class="hover:text-[#a0a0a0]">Contato</a>
                 </div>
                 <div>
-                    <a href="#" class="px-5 py-3 border rounded hover:bg-white hover:text-[#252525] font-bold text-sm">Área
-                        Restrita</a>
+                    <a href="/restrict" class="px-5 py-3 border rounded hover:bg-white hover:text-[#252525] font-bold text-sm">Área Restrita</a>
                 </div>
             </div>
         </div>
