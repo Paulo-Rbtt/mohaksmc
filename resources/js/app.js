@@ -10,7 +10,7 @@ createInertiaApp({
     setup({ el, App, props, plugin }) {
         createApp({ render: () => h(App, props) })
             .use(plugin)
-            .use(PrimeVue)
+            .use(PrimeVue, {unstyled: true})
             .mount(el);
     },
 });
