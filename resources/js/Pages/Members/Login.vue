@@ -10,12 +10,10 @@
                 </div>
                 <div class="mb-4">
                     <label for="senha" class="block text-sm font-medium">Senha</label>
-                    <input type="password" id="senha" name="senha" class="mt-1 p-2 w-full border border-black rounded-md"
-                        required>
+                    <input type="password" id="senha" name="senha" class="mt-1 p-2 w-full border border-black rounded-md" required>
                 </div>
                 <div class="flex justify-center">
-                    <button type="submit"
-                        class="bg-[#646464] text-white py-2 px-5 rounded-md hover:bg-[#404040] flex justify-center">
+                    <button type="submit" class="bg-[#646464] text-white py-2 px-5 rounded-md hover:bg-[#404040] flex justify-center">
                         Login
                     </button>
                 </div>

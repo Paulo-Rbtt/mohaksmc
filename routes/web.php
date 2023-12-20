@@ -16,5 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
-Route::get('/restrict', [MembersController::class, 'index'])->name('members.home');
+
+Route::get('/restrict', [MembersController::class, 'index']);
 Route::post('/restrict', [MembersController::class, 'home']);
+
+Route::get('/dashboard', [MembersController::class, 'members'])->name('members.home');
+Route::get('/register', [MembersController::class, 'create'])->name('members.create');
+Route::post('/register', [MembersController::class, 'store'])->name('members.store');
+Route::get('/info', [MembersController::class, 'info']);
+Route::get('/agenda', [MembersController::class, 'calendar']);
+Route::get('/tesouraria', [MembersController::class, 'treasury']);
